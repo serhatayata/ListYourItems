@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Your Items !</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/L_icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header" class="bg-secondary text-white p-4 mb-3">
+        <div class="container">
+          <div class="row title_row">
+            <div class="col-md-6  title-1">
+                <img src="./img/L_icon.png" id="img_title">
+                <h1 id="header-title">Item Lister</h1>
+            </div>
+            <div class="col-md-4 offset-md-2 align-self-center">
+                <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+       <div id="main" class="card card-body">
+        <h2 class="title">Add Items</h2>
+        <form id="addForm" class="form-inline mb-3">
+          <input id="item" type="text" class="form-control mr-2" id="item">
+          <input type="submit" class="btn btn-dark" value="Submit">
+        </form>
+        <h2 class="title">Items</h2>
+        <ul id="items" class="list-group">
+          
+        </ul>
+       </div>
+      </div>
+
+      <script type="text/javascript" src="./ListYourItemsAPP.js"></script>
+</body>
+</html>

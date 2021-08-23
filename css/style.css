@@ -1,0 +1,44 @@
+/* GENEL KODLAMA */
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: whitesmoke;
+}
+/* ------------------------------------ */
+.title,form,#items {
+    padding: 15px;
+}
+.title-1 {
+    display: flex;
+    flex: wrap;
+}
+#img_title {
+    width: 50px; height: 50px;
+    display: inline-block;
+}
+#header-title {
+    display: inline-block;
+    margin-left: 20px;
+}
+li:hover {
+    background-color: whitesmoke;
+}
+input:hover,li:hover,h2:hover {
+    color:blue;
+}
+#main {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
